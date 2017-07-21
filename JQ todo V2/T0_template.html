@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="main.css" type="text/css">
+<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+<script src='https://cdn.firebase.com/js/client/1.0.17/firebase.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+</head>
+<body>
+<h6>Double click:remove click:cross</h6>
+<div class="header">
+  <form >
+    <h4>My To Do List</h4>
+    <input type="text" name="text" placeholder="Enter...">
+    <button type="button" class="add">Add</button>
+  </form>
+</div>
+<ol id='mylist'>
+  <!-- <div><li>123</li><span class="edit">Edit</span></div> -->
+</ol>
+<!---___________________________________________________________________ -->
+
+
+<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAlOG2Y8BxFvgGKxCvhfzbbwaiOVCJ4abw",
+    authDomain: "myfirebase-13824.firebaseapp.com",
+    databaseURL: "https://myfirebase-13824.firebaseio.com",
+    storageBucket: "myfirebase-13824.appspot.com",
+    messagingSenderId: "11396494893"
+  };
+  firebase.initializeApp(config);
+</script>
+<!-- ___________________________________________________________________________ -->
+<script type="text/javascript" src="main.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+*{
+  padding:0;
+  margin:0;
+}
+.header{
+  width:100%;
+}
+h4{
+  width:100%;
+  text-align: center;
+  background-color: rgb(116, 44, 10);
+  color:white;
+}
+input{
+  display: block;
+  margin:0 auto;
+  width:100%;
+  line-height: 30px;
+}
+button{
+  background-color: rgb(183, 177, 184);
+  width:100%;
+  border-radius: 5px;
+  text-align: center;
+}
+.tocls1{
+  text-decoration: line-through;
+}
+ol{
+  display: block;
+  width:80%;
+  margin:0 auto;
+  border:1px solid red;
+}
+li{
+  text-align: center;
+  display: block;
+  margin:0 auto;
+  border:1px solid green;
+  padding:0  30px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+span{
+  display: block;
+  width:10%;
+  background-color: red;
+  margin: 0 auto;
+  text-align: center;
+}
